@@ -1,12 +1,12 @@
+body {
+    background-color: aliceblue;
+}
+
 div#name {
     background-image: url(image/cute-abstract-modern-background-free-vector.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-}
-
-img {
-    width: 300px;
 }
 
 div#images {
