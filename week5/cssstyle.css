@@ -1,22 +1,22 @@
-body {
-    background-color: black;
-}
-
-h1 {
+div#name {
+    background-image: url(image/cute-abstract-modern-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
-    color: white;
 }
 
 img {
     width: 300px;
 }
 
-div {
+div#images {
     text-align: center;
+    background-image: url(image/hand-painted-watercolor-pastel-sky-background_23-2148902771.avif);
+    background-repeat: repeat-x;
+    background-size: cover;
 }
 
 p {
     font-size: 20px;
     font-family: sans-serif;
-    color: azure;
 }
