@@ -1,0 +1,25 @@
+html {
+    background-color: black;
+}
+
+div#title {
+    float: left;
+    text-align: center;
+    padding: 80px 100px 80px 100px;
+    border-width: 2px;
+    border-color: white;
+    border-style: none solid none solid;
+    width: 450px;
+    margin: 70px 50px 70px 100px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+}
