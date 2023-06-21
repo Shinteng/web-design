@@ -1,0 +1,57 @@
+html {
+    background-color: black;
+}
+
+div#title {
+    color: rgb(241, 238, 215);
+    padding: 100px 50px 50px 150px;
+    font-size: 25px;
+    float: left;
+    width: 250px;
+}
+
+.Italic {
+    font-style: italic;
+}
+
+div#first {
+    width: 250px;
+    padding: 10px 0px 10px 0px;
+    margin: 100px 10px 50px 50px;
+    float: left;
+    color: rgb(241, 238, 215);
+    border-width: 2px;
+    border-color: rgb(241, 238, 215);
+    border-style: none none solid none;
+}
+
+div#second {
+    width: 250px;
+    padding: 10px 0px 10px 0px;
+    margin: 100px 10px 50px 50px;
+    float: left;
+    color: rgb(241, 238, 215);
+    border-width: 2px;
+    border-color: rgb(241, 238, 215);
+    border-style: none none solid none;
+}
+
+div#third {
+    width: 250px;
+    padding: 10px 0px 10px 0px;
+    margin: 100px 10px 50px 50px;
+    float: left;
+    color: rgb(241, 238, 215);
+    border-width: 2px;
+    border-color: rgb(241, 238, 215);
+    border-style: none none solid none;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 20px;
+}
