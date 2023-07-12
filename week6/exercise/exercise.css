@@ -27,7 +27,7 @@ body {
     color: #f2f2f2;
     text-align: center;
     text-decoration: none;
-    padding: 16px;
+    padding: 14px;
 }
 
 .topnav a:hover {
@@ -76,10 +76,5 @@ img {
         width: 100%;
     }
 
-    .row2 {
-        display: flex;
-        width: 33.33%;
-
-    }
 
 }
