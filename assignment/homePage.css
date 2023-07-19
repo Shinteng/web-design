@@ -61,3 +61,119 @@ body {
     border-width: 3px;
     border-style: none none solid none;
 }
+
+.about {
+    margin: 80px;
+
+    display: flex;
+    position: relative;
+}
+
+.aboutIntro {
+    color: white;
+    margin-left: 40px;
+}
+
+
+#ABOUT {
+    font-size: 170px;
+    font-family: 'Franklin Gothic Medium';
+    opacity: 0.2;
+    margin: 0px;
+    position: absolute;
+    top: 80px;
+    left: 57%;
+}
+
+#aboutname {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 200px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.aboutIntro a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #00C2FF;
+}
+
+#contact {
+    display: flex;
+}
+
+#email {
+    color: #908D8D;
+}
+
+#showcontact {
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+.part {
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.what {
+    color: #908D8D;
+    font-family: sans-serif;
+}
+
+.title {
+    font-size: 64px;
+}
+
+#myskill {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 250px;
+}
+
+#work {
+    display: flex;
+    margin: 50px 200px;
+    text-align: center;
+}
+
+.f {
+    position: relative;
+    margin: 30px;
+}
+
+
+#ec {
+    position: relative;
+    margin: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+.hide button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 5px 20px;
+}
+
+.description {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+img:hover+.hide {
+    display: block;
+}
+
+img:hover {
+    opacity: 0.3;
+}
