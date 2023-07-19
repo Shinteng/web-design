@@ -64,14 +64,13 @@ body {
 
 .about {
     margin: 80px;
-
     display: flex;
-    position: relative;
 }
 
 .aboutIntro {
     color: white;
     margin-left: 40px;
+    position: relative;
 }
 
 
@@ -82,7 +81,7 @@ body {
     margin: 0px;
     position: absolute;
     top: 80px;
-    left: 57%;
+    left: 20%;
 }
 
 #aboutname {
@@ -176,4 +175,38 @@ img:hover+.hide {
 
 img:hover {
     opacity: 0.3;
+}
+
+#box2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 200px 0px 200px;
+    color: #908D8D;
+}
+
+#number {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    color: #00C2FF;
+    font-size: 70px;
+}
+
+.num {
+    margin: 0px;
+}
+
+.footer {
+    color: white;
+    background-color: #3F3F3F;
+    margin-top: 100px;
+}
+
+#icon {
+    margin-left: 80px;
+    padding-top: 30px;
+}
+
+.footer a {
+    padding: 0px 5px;
 }
