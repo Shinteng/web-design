@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3F3F3F;
+    width: 100%;
+    position: sticky;
+    top: 0;
+
+}
+
+.home {
+    margin: 10px;
+    display: flex;
+}
+
+.others {
+    margin: 10px;
+}
+
+.nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+#hello {
+    color: #908D8D;
+    margin-left: 80px;
+    margin-top: 80px;
+    font-size: 36px;
+}
+
+#name {
+    color: white;
+    font-size: 64px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+#web {
+    color: white;
+    margin-left: 150px;
+    margin-top: 80px;
+    font-size: 96px;
+}
+
+.start {
+    display: flex;
+    justify-content: space-between;
+    border-color: #3F3F3F;
+    border-width: 3px;
+    border-style: none none solid none;
+}
