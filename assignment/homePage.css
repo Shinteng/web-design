@@ -169,11 +169,11 @@ p {
     left: 0px;
 }
 
-img:hover+.hide {
+#work img:hover+.hide {
     display: block;
 }
 
-img:hover {
+#work img:hover {
     opacity: 0.3;
 }
 
