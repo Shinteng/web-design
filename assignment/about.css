@@ -35,42 +35,42 @@ body {
 }
 
 .about {
-    margin: 80px;
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .aboutIntro {
     color: white;
-    margin-left: 40px;
+    width: 40%;
     position: relative;
+    padding: 20px;
 }
 
 
 #ABOUT {
-    font-size: 170px;
+    font-size: 150px;
     font-family: 'Franklin Gothic Medium';
     opacity: 0.2;
     margin: 0px;
     position: absolute;
-    top: 80px;
+    top: 0;
     left: 20%;
 }
 
 #aboutname {
     text-align: center;
     font-size: 48px;
-    margin-top: 200px;
+    padding-top: 20px;
 }
 
 p {
     font-size: 20px;
     line-height: 1.5;
+    padding-bottom: 20px;
 }
 
-#letsgo {
-    margin-top: 50px;
-}
 
 .big {
     color: white;

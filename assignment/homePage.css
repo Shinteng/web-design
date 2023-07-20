@@ -33,25 +33,29 @@ body {
     color: black;
 }
 
+#intro {
+    width: 100%;
+}
+
 #hello {
     color: #908D8D;
-    margin-left: 80px;
-    margin-top: 80px;
+    text-align: center;
     font-size: 36px;
+    width: 40%;
 }
 
 #name {
     color: white;
     font-size: 64px;
-    margin-left: 200px;
-    margin-top: 50px;
+    text-align: center;
+
 }
 
 #web {
     color: white;
-    margin-left: 150px;
-    margin-top: 80px;
     font-size: 96px;
+    text-align: right;
+    width: 80%;
 }
 
 .start {
@@ -63,34 +67,37 @@ body {
 }
 
 .about {
-    margin: 80px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .aboutIntro {
     color: white;
-    margin-left: 40px;
+    width: 40%;
     position: relative;
+    padding: 20px;
 }
 
 
 #ABOUT {
-    font-size: 170px;
+    font-size: 150px;
     font-family: 'Franklin Gothic Medium';
     opacity: 0.2;
     margin: 0px;
     position: absolute;
-    top: 80px;
+    top: 0;
     left: 20%;
 }
 
 #aboutname {
     text-align: center;
     font-size: 48px;
-    margin-top: 200px;
+    padding-top: 20px;
 }
 
-p {
+.aboutIntro p {
     font-size: 20px;
     line-height: 1.5;
 }
@@ -131,39 +138,23 @@ p {
 
 #myskill {
     display: flex;
-    justify-content: space-between;
-    margin: 50px 250px;
+    justify-content: center;
+    column-gap: 10%;
 }
 
 #work {
     display: flex;
-    margin: 50px 200px;
-    text-align: center;
+    justify-content: center;
 }
 
 .f {
     position: relative;
-    margin: 30px;
-}
-
-
-#ec {
-    position: relative;
-    margin: 30px;
+    margin: 20px;
 }
 
 .hide {
     display: none;
-}
-
-.hide button {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    padding: 5px 20px;
-}
-
-.description {
+    text-align: left;
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -179,15 +170,15 @@ p {
 
 #box2 {
     display: flex;
-    justify-content: space-between;
-    margin: 70px 200px 0px 200px;
+    justify-content: center;
+    column-gap: 10%;
     color: #908D8D;
 }
 
 #number {
     display: flex;
-    justify-content: space-between;
-    margin: 0px 200px;
+    justify-content: center;
+    column-gap: 10%;
     color: #00C2FF;
     font-size: 70px;
 }
@@ -209,4 +200,11 @@ p {
 
 .footer a {
     padding: 0px 5px;
+}
+
+@media screen and (max-width:480px) {
+    .about {
+        flex-direction: column;
+    }
+
 }
