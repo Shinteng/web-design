@@ -1,0 +1,134 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3F3F3F;
+    width: 100%;
+    position: sticky;
+    top: 0;
+
+}
+
+.logo {
+    margin: 10px;
+}
+
+.others {
+    margin: 10px;
+}
+
+.nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+#title {
+    font-family: 'Inknut Antiqua', serif;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    font-size: 48px;
+}
+
+#contact {
+    font-family: 'Inika', serif;
+    color: white;
+    margin-left: 40px;
+    display: flex;
+}
+
+#contact h3 {
+    margin-right: 30px;
+}
+
+#leaveContact {
+    color: white;
+    display: flex;
+    margin: 40px;
+}
+
+#text {
+    flex: 1.5;
+}
+
+#text h1 {
+    font-family: 'Inknut Antiqua', serif;
+    margin-top: 0px;
+}
+
+.input {
+    font-family: 'Imprima', sans-serif;
+    border: #3F3F3F solid 1px;
+    color: #3F3F3F;
+    margin-right: 40px;
+    padding: 10px;
+}
+
+#message {
+    font-family: 'Imprima', sans-serif;
+    border: #3F3F3F solid 1px;
+    color: #3F3F3F;
+    margin-right: 40px;
+    padding: 10px 0px 100px 10px;
+}
+
+#text button {
+    background-color: #3F3F3F;
+    color: white;
+    padding: 10px;
+}
+
+#img {
+    flex: 1.5;
+}
+
+
+.footer {
+    color: white;
+    background-color: #3F3F3F;
+    margin-top: 100px;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+#icon {
+    margin-left: 40px;
+    padding: 20px 0px;
+
+}
+
+#icon h1 {
+    margin-bottom: 0px;
+}
+
+#icon h3 {
+    margin-top: 0px;
+}
+
+.footer a {
+    padding: 0px 5px;
+}
+
+@media screen and (max-width:680px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+
+    #img {
+        display: none;
+    }
+}

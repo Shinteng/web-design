@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3F3F3F;
+    width: 100%;
+    position: sticky;
+    top: 0;
+
+}
+
+.logo {
+    margin: 10px;
+}
+
+.others {
+    margin: 10px;
+}
+
+.nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+
+
+.footer {
+    color: white;
+    background-color: #3F3F3F;
+    margin-top: 100px;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+#icon {
+    margin-left: 80px;
+    padding-top: 30px;
+}
+
+.footer a {
+    padding: 0px 5px;
+}
+
+@media screen and (max-width:680px) {
+    .nav {
+        flex-direction: column;
+    }
+}
