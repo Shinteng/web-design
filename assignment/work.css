@@ -42,12 +42,16 @@ body {
 
 .work {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 40px 40px 80px 40px;
     font-family: 'Inknut Antiqua', serif;
 }
 
 .work2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 40px 40px 80px 40px;
     font-family: 'Inknut Antiqua', serif;
 }

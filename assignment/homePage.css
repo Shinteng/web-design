@@ -13,9 +13,8 @@ body {
     z-index: 100;
 }
 
-.home {
+.logo {
     margin: 10px;
-    display: flex;
 }
 
 .others {
@@ -34,9 +33,9 @@ body {
 }
 
 .start {
+    display: flex;
     width: 100%;
     align-items: center;
-
 }
 
 #intro {
@@ -46,20 +45,19 @@ body {
 #hello {
     color: #908D8D;
     font-size: 200%;
-    padding-left: 10%;
+    margin: 40px;
 }
 
 #name {
     color: white;
     font-size: 300%;
-    padding-left: 20%;
+    margin: 0px 80px;
 }
 
 #web {
     color: white;
     font-size: 400%;
-    padding-left: 25%;
-    padding-right: 5%;
+    margin: 0px 10px 20px 200px;
 }
 
 .start {
@@ -75,7 +73,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 80px;
+    margin: 40px;
 }
 
 #aboutimg {
@@ -154,7 +152,7 @@ body {
     justify-content: center;
     column-gap: 10%;
     font-family: 'Imprima', sans-serif;
-    margin: 80px;
+    margin: 40px;
 }
 
 #work {
@@ -230,7 +228,11 @@ body {
     color: #00C2FF;
     font-size: 70px;
     font-family: 'Imprima', sans-serif;
-    margin: 80px;
+    margin: 40px;
+}
+
+#number {
+    margin-top: 0px;
 }
 
 .num {
@@ -244,17 +246,18 @@ body {
     font-family: 'Inknut Antiqua', serif;
 }
 
-.footer h1 {
-    margin: 0px;
-}
-
-.footer h3 {
-    margin-top: 0px;
-}
-
 #icon {
-    margin-left: 80px;
-    padding-top: 30px;
+    margin-left: 40px;
+    padding: 20px 0px;
+
+}
+
+#icon h1 {
+    margin-bottom: 0px;
+}
+
+#icon h3 {
+    margin-top: 0px;
 }
 
 .footer a {
@@ -270,27 +273,11 @@ body {
         font-size: 30px;
     }
 
-    #work {
-        flex-direction: column;
-    }
-
-    .f {
-        margin-top: 0px;
-    }
-
-    .hide1 {
-        bottom: 0px;
-    }
-
 }
 
 @media screen and (max-width:1000px) {
     #startimg {
         display: none;
-    }
-
-    #number {
-        font-size: 40px;
     }
 
     .what {
@@ -300,12 +287,42 @@ body {
     .title {
         font-size: 30px;
     }
-
-
 }
 
 @media screen and (max-width:900px) {
     .about {
         flex-direction: column;
     }
+
+    #number {
+        font-size: 40px;
+    }
+
+    #ABOUT {
+        display: none;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    #name {
+        margin: 0px 40px;
+    }
+
+    #web {
+        margin: 0px 40px;
+    }
+
+    #work {
+        flex-direction: column;
+    }
+
+    .f {
+        margin-top: 0px;
+    }
+
+
 }
