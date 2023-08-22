@@ -59,10 +59,77 @@
 .word {
   position: absolute;
   right: 20%;
-  top: 12%;
+  top: 7%;
   text-shadow: 4px 4px 6px white;
 }
 
+.introworld {
+  background-color: #EFEDED;
+  position: relative;
+}
+
+.world {
+  text-align: right;
+}
+
+.r1 {
+  justify-content: end;
+  align-items: center;
+}
+
+.image {
+  transform: rotate(3deg);
+}
+
+.t1 {
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  text-align: center;
+  width: 25%;
+}
+
+.t2 {
+  position: absolute;
+  left: 6%;
+  top: 45%;
+  text-align: center;
+  width: 25%;
+}
+
+.t3 {
+  position: absolute;
+  left: 35%;
+  bottom: 5%;
+  text-align: center;
+  width: 25%;
+}
+
+.select {
+  position: relative;
+}
+
+.select img:hover {
+  opacity: 20%;
+}
+
+.select img:hover+.hide {
+  display: block;
+}
+
+.hide {
+  display: none;
+  position: absolute;
+  top: 5px;
+}
+
+.cardhide {
+  display: none;
+}
+
+.body {
+  background-color: #EFEDED;
+}
 
 @media only screen and (max-width: 992px) {
   .dropdown-menu.show {
@@ -73,6 +140,52 @@
 
   .word {
     right: 10%;
+  }
+
+  .t1 {
+    position: unset;
+    width: 33%;
+    padding: 10px;
+  }
+
+  .t2 {
+    position: unset;
+    width: 33%;
+    padding: 10px;
+
+  }
+
+  .t3 {
+    position: unset;
+    width: 33%;
+    padding: 10px;
+
+  }
+
+  .r2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .world {
+    text-align: center;
+  }
+
+  .image {
+    transform: rotate(0deg);
+  }
+
+  .hoverhide {
+    display: none;
+  }
+
+  .hoverhide img {
+    display: none;
+  }
+
+  .cardhide {
+    display: block;
   }
 }
 
@@ -86,5 +199,52 @@
 @media only screen and (max-width: 680px) {
   .word {
     position: unset;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .r2 {
+    flex-direction: column;
+  }
+
+  .t1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    padding: 0px;
+  }
+
+  .t2 {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: left;
+    padding: 0px;
+  }
+
+  .t3 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: left;
+    padding: 0px;
+  }
+
+  .header {
+    width: 60%;
+    text-align: center;
+  }
+
+  .header2 {
+    width: 90%;
+    text-align: center;
+  }
+
+  .header3 {
+    width: 100%;
+    text-align: center;
+    padding-right: 10px;
   }
 }

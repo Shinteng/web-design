@@ -1,6 +1,5 @@
 .c1 {
     font-family: 'Noto Sans SC', sans-serif;
-    line-height: 2;
 }
 
 .navbar-dark .navbar-nav a.nav-link {
@@ -81,20 +80,20 @@
     top: 10%;
 }
 
+.row {
+    align-items: center;
+}
+
 .column h3 {
     font-weight: bold;
 }
 
-.r1 {
+.row1 {
     background-color: #798777;
-    align-items: center;
-    display: flex;
 }
 
-.r2 {
+.row2 {
     background-color: #BDD2B6;
-    align-items: center;
-    display: flex;
 }
 
 .column2 h3 {
@@ -114,11 +113,7 @@
         overflow-y: scroll;
     }
 
-    .r1 {
-        flex-direction: column;
-    }
-
-    .r2 {
+    .row2 {
         flex-direction: column-reverse;
     }
 
